@@ -15,6 +15,11 @@ struct AuthView: View {
     var wid = Float(0.6)
     var body: some View {
         VStack {
+            Text("Chat App")
+                .font(.largeTitle)
+                .foregroundColor(Color.blue)
+                .fontWeight(.bold)
+                .padding(.bottom, 40)
             Group{
                 TextField("Username", text: $username).modifier(RoundedStyle())
                 SecureField("Password", text: $password).modifier(RoundedStyle())
