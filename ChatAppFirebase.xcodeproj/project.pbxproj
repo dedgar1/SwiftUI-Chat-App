@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A8E87F423D637FF00D87C6F /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E87F323D637FF00D87C6F /* CustomModifiers.swift */; };
+		7A8E87F623D65C5B00D87C6F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E87F523D65C5A00D87C6F /* CustomButton.swift */; };
 		7AA9ACC823D5D2D60080F2C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9ACC723D5D2D60080F2C4 /* AppDelegate.swift */; };
 		7AA9ACCA23D5D2D60080F2C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9ACC923D5D2D60080F2C4 /* SceneDelegate.swift */; };
 		7AA9ACCC23D5D2D60080F2C4 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9ACCB23D5D2D60080F2C4 /* AuthView.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		3A735F76EC6077793B2CEF64 /* Pods-ChatAppFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppFirebase.release.xcconfig"; path = "Target Support Files/Pods-ChatAppFirebase/Pods-ChatAppFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		7A8E87F323D637FF00D87C6F /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		7A8E87F523D65C5A00D87C6F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		7AA9ACC423D5D2D60080F2C4 /* ChatAppFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA9ACC723D5D2D60080F2C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA9ACC923D5D2D60080F2C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				7AA9ACC923D5D2D60080F2C4 /* SceneDelegate.swift */,
 				7AA9ACCB23D5D2D60080F2C4 /* AuthView.swift */,
 				7A8E87F323D637FF00D87C6F /* CustomModifiers.swift */,
+				7A8E87F523D65C5A00D87C6F /* CustomButton.swift */,
 				7AA9ACCD23D5D2DB0080F2C4 /* Assets.xcassets */,
 				7AA9ACD223D5D2DB0080F2C4 /* LaunchScreen.storyboard */,
 				7AA9ACD523D5D2DB0080F2C4 /* Info.plist */,
@@ -225,6 +228,7 @@
 				7A8E87F423D637FF00D87C6F /* CustomModifiers.swift in Sources */,
 				7AA9ACCA23D5D2D60080F2C4 /* SceneDelegate.swift in Sources */,
 				7AA9ACCC23D5D2D60080F2C4 /* AuthView.swift in Sources */,
+				7A8E87F623D65C5B00D87C6F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

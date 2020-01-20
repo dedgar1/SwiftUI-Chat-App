@@ -13,10 +13,9 @@ struct RoundedStyle: ViewModifier {
     func body(content:Content) -> some View {
         content
         .padding(.all)
-        .overlay(
-            RoundedRectangle(cornerRadius: 16)
-                .stroke(Color.blue, lineWidth: 2)
-        )
-            .frame(width: CGFloat(UIScreen.main.bounds.width) * CGFloat(0.6))
+        
+            
     }
 }
+
+
